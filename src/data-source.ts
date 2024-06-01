@@ -9,7 +9,7 @@ export const AppDataSource = new DataSource({
     username: "root",
     password: "root",
     database: "primerApi",
-    synchronize: true,
+    synchronize: false,
     logging: false,
     entities: [User],
     migrations: [],
